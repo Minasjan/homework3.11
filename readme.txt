@@ -22,5 +22,14 @@ git commit        # nor commit enq grum
 
 git branch new_branch
 
-5.
+5. Create another branch from master and use revert to revert the last commit.
+
+git branch new_branch1
+git checkout new_branch1
+git revert d02e94f775dba8514e13edae15ad2ef3da77792
+
+7. Merge second branch to first branch.
+
+git checkout new_branch
+git merge New_branch1
 
